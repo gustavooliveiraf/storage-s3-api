@@ -33,3 +33,9 @@ bucketPromise.then(
   function(err) {
     console.error(err, err.stack);
 });
+
+// --------------
+
+// var uploadMulter = multer();
+// app.use(uploadMulter.array());
+// app.use(express.static('public'));
